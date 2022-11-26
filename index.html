@@ -1,17 +1,23 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            #backgroundImage {
+                border: none;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
 
-<body>
-
-<!--Embed another document within the current document.-->
-<iframe title="Search_Bar"></iframe>
-
-<form id="form"> 
-  <input type="search" id="query" name="q" placeholder="Search...">
-  <button>Searc</button>
-</form>
+            [show-background-image] #backgroundImage {
+                visibility: visible;
+            }
+        </style>
+    </head>
 
 
-</body>
-
+    <body>
+        <!--Embed VM within the current document-->
+        <iframe id="backgroundImage" src="C:\Users\fschenkelberg\Documents\GitHub\fschenkelberg.github.io\test.html"></iframe>
+    </body>
 </html>
